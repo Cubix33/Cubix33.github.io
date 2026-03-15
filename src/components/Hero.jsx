@@ -25,7 +25,7 @@ export default function Hero() {
             </span>{" "}
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed">
-            Google WE Scholar'24 | ML Enthusiast | Millennium fellow'24
+            Google WE Scholar'24 | Ex-Intern at BrandContext AI | Semi-finalist at Morgan Stanley CTG
           </p>
           <p className="text-lg text-gray-400 max-w-2xl mx-auto mb-8">
             Passionate about creating beautiful, functional, and user-centered digital experiences 
@@ -49,12 +49,12 @@ export default function Hero() {
           </a>
         </div>
         
-        {/* Scroll indicator */}
+        {/* Scroll indicator
         <div className="absolute -bottom-300 left-1/2 transform -translate-x-1/2 animate-bounce">
           <div className="w-6 h-10 border-2 border-gray-400 rounded-full flex justify-center">
             <div className="w-1 h-3 bg-gray-400 rounded-full mt-2 animate-pulse"></div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

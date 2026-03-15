@@ -29,21 +29,21 @@ function Projects() {
       link: "https://drive.google.com/file/d/17feEdSCqSk-ogPfLrjPtgnVW4uiKZfyg/view?usp=drivesdk",
       github: "https://github.com/PS3098/ProjectX",
       status: "Completed",
-      category: "Full Stack"
+      category: "Full Stack + AI Integration"
     },
     {
-      title: "Simhastha Ujjain Missing Person Tracker",
-      description: "Real-time missing person reporting and face recognition system built with ReactJS and Cloud Vision API. Powered by React and live face recognition with 92%+ accuracy for fast, scalable search and alerts.",
-      technologies: ["React", "Google Cloud Vision API", "CSS", "OpenCV"],
-      image: "/images/simhastha.png",
-      link: "https://youtu.be/ocWosSs4PYA",
-      github: "https://github.com/HARSHDIPSAHA/SIH1790_ERROR_404_CHANGE_FOUND",
+      title: "Agentic AI Loan Application Platform",
+      description: "AI-powered, end-to-end loan origination platform using a multi-agent conversational system to automate onboarding, credit evaluation, underwriting, and sanction generation",
+      technologies: ["Python", "Flask", "DeepTranslator", "XGBoost", "ReactJS"],
+      image: "/images/loan.jpg",
+      link: "https://www.youtube.com/watch?v=liPhNCAfjFg",
+      github: "https://github.com/Cubix33/bfsi",
       status: "Completed",
-      category: ["Frontend", "Machine Learning"]
+      category: ["Agentic AI", "Machine Learning", "Full Stack"]
     }
   ];
 
-  const categories = ["All", "Full Stack", "Machine Learning", "Frontend", "GoLang"];
+  const categories = ["All", "Full Stack", "Machine Learning", "Frontend", "GoLang", "AI Integration"];
   const [selectedCategory, setSelectedCategory] = React.useState("All");
 
   const filteredProjects = selectedCategory === "All" 

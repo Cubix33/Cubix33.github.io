@@ -28,31 +28,27 @@ function About() {
           <div className="space-y-6">
             <div>
               <h3 className="text-2xl font-semibold text-white mb-4">
-                Passionate Frontend Developer & ML Enthusiast
+                Passionate Full-stack developer and AI/ML Enthusiast
               </h3>
               <p className="text-gray-300 leading-relaxed mb-4">
-                Hello! I'm Anshika Singh, a passionate frontend developer with a keen interest in machine learning 
-                and creating exceptional digital experiences. I love turning complex problems into simple, 
-                and intuitive solutions.
+                Hi, I’m Anshika. I build things that think.
               </p>
               <p className="text-gray-300 leading-relaxed mb-4">
-                My journey in tech started with curiosity about how websites work, and it has evolved into 
-                a deep passion for creating user-centric applications that make a difference. I enjoy working 
-                at the intersection of design and technology, where creativity meets functionality.
+                As a Full Stack Developer specializing in Machine Learning, I bridge the gap between complex data and user-centric design. My current playground is Agentic AI, where I’m building projects that move past static responses into autonomous problem-solving.
               </p>
               <p className="text-gray-300 leading-relaxed">
-                When I’m not coding, I’m usually prototyping side projects, exploring upcoming tech stacks, or participating in hackathons and tech communities.
+                I thrive in the space where creativity meets technical execution—turning "what if" into functional, scalable code. Always down for a hackathon, a new tech stack, or a deep dive into the latest AI research.
               </p>
             </div>
             
             {/* Stats or highlights */}
             <div className="grid grid-cols-2 gap-6 mt-8">
               <div className="text-center p-4 bg-white/10 backdrop-blur-sm rounded-lg border border-white/20">
-                <div className="text-2xl font-bold text-purple-400">2+</div>
+                <div className="text-2xl font-bold text-purple-400">3+</div>
                 <div className="text-sm text-gray-300">Years Experience</div>
               </div>
               <div className="text-center p-4 bg-white/10 backdrop-blur-sm rounded-lg border border-white/20">
-                <div className="text-2xl font-bold text-purple-400">8+</div>
+                <div className="text-2xl font-bold text-purple-400">10+</div>
                 <div className="text-sm text-gray-300">Projects Completed</div>
               </div>
             </div>
@@ -66,7 +62,7 @@ function About() {
                 Get In Touch
               </a>
               <a 
-                href="https://drive.google.com/file/d/1yC7Lxz6nRCRtjOPEG80VImCox9YvJdBV/view?usp=sharing" 
+                href="https://drive.google.com/file/d/1GJsnxHcqzPLLG40a2BUtL-3ftRAigMxo/view?usp=sharing" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-6 py-3 border-2 border-purple-400 text-purple-400 font-medium rounded-lg hover:bg-purple-400 hover:text-white transition-all duration-300"
